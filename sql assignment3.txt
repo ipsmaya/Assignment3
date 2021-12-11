@@ -1,0 +1,41 @@
+1.
+SELECT 
+EMPNO,
+ENAME, 
+SAL 
+FROM EMP 
+WHERE SAL BETWEEN (2000,3000);
+
+2.SELECT 
+EMPNO, 
+ENAME, 
+HIRE DATE 
+FROM EMP 
+WHERE ENAME IN ('JONES','TURNER','SMITH')
+
+3."Zero" is a value whereas "Null" is a non-value.
+
+
+4.
+select
+name
+from employeetab
+where name like '__A%%'
+
+5.select
+EMPNO, 
+ENAME, 
+SAL 
+from employeetab
+where SAL > 2000
+order by asc
+
+
+
+
+
+
+
+
+
+
